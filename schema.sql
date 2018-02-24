@@ -1,0 +1,14 @@
+DROP DATABASE IF EXISTS reserve_db;
+
+CREATE DATABASE reserve_db;
+
+USE reserve_db;
+
+CREATE TABLE reservations (
+	id INT(11) AUTO_INCREMENT NOT NULL PRIMARY KEY,
+	name VARCHAR(255) NOT NULL,
+	phone INT(25) NOT NULL,
+	email VARCHAR(255) NOT NULL
+);
+
+SELECT * FROM reserve_db;
