@@ -11,4 +11,4 @@ CREATE TABLE reservations (
 	email VARCHAR(255) NOT NULL
 );
 
-SELECT * FROM reserve_db;
+SELECT * FROM reservations;
